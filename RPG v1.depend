@@ -1,0 +1,982 @@
+# depslib dependency file v1.0
+1421913189 source:c:\program files\codeblocks\chillout\rpg v1\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<time.h>
+	<unistd.h>
+	<iostream>
+	"Sprite.h"
+	"ResourceFactory.h"
+	"float2.h"
+	"Humans.h"
+	"Monster.h"
+	"ComponentManager.h"
+	"Player.h"
+	"Ghost.h"
+	"Spider.h"
+	"Terrain.h"
+	"Spawner.h"
+	"Tree.h"
+	"SpriteText.h"
+	"Statistics.h"
+	"GUI.h"
+	"Monster.h"
+	"Objects.h"
+	"Items.h"
+	"Key.h"
+	"Npc.h"
+	"bass.h"
+
+1301111162 c:\program files\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winerror.h
+
+1341006776 c:\program files\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006770 c:\program files\codeblocks\mingw\include\_mingw.h
+
+1301111148 c:\program files\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnterr.h
+
+1341006772 c:\program files\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341006776 c:\program files\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1384724424 c:\program files\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\gl.h
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1341006776 c:\program files\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006776 c:\program files\codeblocks\mingw\include\unistd.h
+	<io.h>
+	<process.h>
+	<getopt.h>
+	<sys/types.h>
+
+1341006774 c:\program files\codeblocks\mingw\include\io.h
+	<_mingw.h>
+	<sys/types.h>
+
+1341006780 c:\program files\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006774 c:\program files\codeblocks\mingw\include\process.h
+	<_mingw.h>
+	<sys/types.h>
+	<stdint.h>
+
+1341006776 c:\program files\codeblocks\mingw\include\stdint.h
+	<stddef.h>
+
+1341006772 c:\program files\codeblocks\mingw\include\getopt.h
+	<_mingw.h>
+
+1421700641 c:\program files\codeblocks\chillout\rpg v1\sprite.h
+	"Texture2D.h"
+	"float2.h"
+
+1414672260 c:\program files\codeblocks\chillout\rpg v1\texture2d.h
+
+1421323910 c:\program files\codeblocks\chillout\rpg v1\float2.h
+	<math.h>
+
+1341006774 c:\program files\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1415883492 c:\program files\codeblocks\chillout\rpg v1\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1417093684 c:\program files\codeblocks\chillout\rpg v1\componentmanager.h
+	<iostream>
+	<list>
+	"Component.h"
+
+1418298864 c:\program files\codeblocks\chillout\rpg v1\component.h
+
+1421879234 c:\program files\codeblocks\chillout\rpg v1\player.h
+	"Humans.h"
+
+1421914724 c:\program files\codeblocks\chillout\rpg v1\terrain.h
+	<vector>
+	"Sprite.h"
+
+1421857955 c:\program files\codeblocks\chillout\rpg v1\tree.h
+	"Objects.h"
+
+1421873199 c:\program files\codeblocks\chillout\rpg v1\entity.h
+	"float2.h"
+	"Sprite.h"
+	"ComponentManager.h"
+
+1386237742 c:\program files\codeblocks\chillout\rpg v1\spritetext.h
+	"Sprite.h"
+	<string>
+
+1421888026 c:\program files\codeblocks\chillout\rpg v1\statistics.h
+
+1421700972 c:\program files\codeblocks\chillout\rpg v1\gui.h
+	"Sprite.h"
+
+1421858906 source:c:\program files\codeblocks\chillout\rpg v1\arrow.cpp
+	<windows.h>
+	"Arrow.h"
+	"Terrain.h"
+	"Entity.h"
+	"ResourceFactory.h"
+
+1421859165 c:\program files\codeblocks\chillout\rpg v1\arrow.h
+	"Weapons.h"
+
+1421861439 c:\program files\codeblocks\chillout\rpg v1\weapons.h
+	"Entity.h"
+
+1421860085 source:c:\program files\codeblocks\chillout\rpg v1\arrowpack.cpp
+	"ArrowPack.h"
+	"ResourceFactory.h"
+
+1421858126 c:\program files\codeblocks\chillout\rpg v1\arrowpack.h
+	"Items.h"
+
+1421860779 c:\program files\codeblocks\chillout\rpg v1\items.h
+	"Entity.h"
+
+1421915234 source:c:\program files\codeblocks\chillout\rpg v1\chest.cpp
+	"Chest.h"
+	"ResourceFactory.h"
+	"ArrowPack.h"
+	"Coin.h"
+	"HpPotion.h"
+	"ManaPotion.h"
+	"Objects.h"
+	"Player.h"
+	"Terrain.h"
+	"Items.h"
+	<stdlib.h>
+	<cstdio>
+	<ctime>
+	<iostream>
+
+1421859774 c:\program files\codeblocks\chillout\rpg v1\chest.h
+	"Objects.h"
+
+1421862368 c:\program files\codeblocks\chillout\rpg v1\objects.h
+	"Entity.h"
+
+1421858327 c:\program files\codeblocks\chillout\rpg v1\coin.h
+	"Items.h"
+
+1421857952 c:\program files\codeblocks\chillout\rpg v1\hppotion.h
+	"Potions.h"
+
+1421860986 c:\program files\codeblocks\chillout\rpg v1\potions.h
+	"Items.h"
+
+1421857953 c:\program files\codeblocks\chillout\rpg v1\manapotion.h
+	"Potions.h"
+
+1421861009 source:c:\program files\codeblocks\chillout\rpg v1\coin.cpp
+	"Coin.h"
+
+1416487102 source:c:\program files\codeblocks\chillout\rpg v1\component.cpp
+	"Component.h"
+
+1417094332 source:c:\program files\codeblocks\chillout\rpg v1\componentmanager.cpp
+	"ComponentManager.h"
+
+1421776028 source:c:\program files\codeblocks\chillout\rpg v1\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1418297442 source:c:\program files\codeblocks\chillout\rpg v1\explosion.cpp
+	"Explosion.h"
+	<windows.h>
+
+1418297384 c:\program files\codeblocks\chillout\rpg v1\explosion.h
+	"Entity.h"
+
+1421858917 source:c:\program files\codeblocks\chillout\rpg v1\fireball.cpp
+	<windows.h>
+	"Terrain.h"
+	"Explosion.h"
+	"ResourceFactory.h"
+	"FireBall.h"
+
+1421858328 c:\program files\codeblocks\chillout\rpg v1\fireball.h
+	"Weapons.h"
+
+1416482738 source:c:\program files\codeblocks\chillout\rpg v1\float2.cpp
+	"float2.h"
+
+1421888909 source:c:\program files\codeblocks\chillout\rpg v1\ghost.cpp
+	<stdlib.h>
+	<cstdio>
+	<ctime>
+	<iostream>
+	"Ghost.h"
+	"Arrow.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Coin.h"
+	"Player.h"
+	"HpPotion.h"
+	"ManaPotion.h"
+	"FireBall.h"
+	"Chest.h"
+	"Statistics.h"
+
+1421861365 c:\program files\codeblocks\chillout\rpg v1\ghost.h
+	"Monster.h"
+
+1421857953 c:\program files\codeblocks\chillout\rpg v1\monster.h
+	"Entity.h"
+
+1421861301 c:\program files\codeblocks\chillout\rpg v1\humans.h
+	"Entity.h"
+
+1421700992 source:c:\program files\codeblocks\chillout\rpg v1\gui.cpp
+	"GUI.h"
+
+1421860986 source:c:\program files\codeblocks\chillout\rpg v1\hppotion.cpp
+	"HpPotion.h"
+
+1421857264 source:c:\program files\codeblocks\chillout\rpg v1\humans.cpp
+	"Humans.h"
+
+1421859347 source:c:\program files\codeblocks\chillout\rpg v1\items.cpp
+	"Items.h"
+
+1421879962 source:c:\program files\codeblocks\chillout\rpg v1\key.cpp
+	"Key.h"
+	<stdlib.h>
+	"Player.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Statistics.h"
+	<iostream>
+
+1421879986 c:\program files\codeblocks\chillout\rpg v1\key.h
+	"Items.h"
+
+1421915493 c:\program files\codeblocks\chillout\rpg v1\spider.h
+	"Monster.h"
+
+1421861906 c:\program files\codeblocks\chillout\rpg v1\spawner.h
+	"Objects.h"
+
+1421860986 source:c:\program files\codeblocks\chillout\rpg v1\manapotion.cpp
+	"ManaPotion.h"
+
+1421857265 source:c:\program files\codeblocks\chillout\rpg v1\monster.cpp
+	"Monster.h"
+
+1421861920 source:c:\program files\codeblocks\chillout\rpg v1\npc.cpp
+	"npc.h"
+	"Player.h"
+	"Statistics.h"
+	<iostream>
+
+1421857953 c:\program files\codeblocks\chillout\rpg v1\npc.h
+	"Humans.h"
+
+1421859435 source:c:\program files\codeblocks\chillout\rpg v1\objects.cpp
+	"Objects.h"
+
+1421918083 source:c:\program files\codeblocks\chillout\rpg v1\player.cpp
+	<stdlib.h>
+	<iostream>
+	"Player.h"
+	"Terrain.h"
+	"Spawner.h"
+	"Arrow.h"
+	"Coin.h"
+	"ResourceFactory.h"
+	"Statistics.h"
+	"HpPotion.h"
+	"FireBall.h"
+	"Monster.h"
+	"ManaPotion.h"
+	"Chest.h"
+	"ArrowPack.h"
+	"Key.h"
+	"Npc.h"
+
+1421860986 source:c:\program files\codeblocks\chillout\rpg v1\potions.cpp
+	"Potions.h"
+
+1416481394 source:c:\program files\codeblocks\chillout\rpg v1\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1421861952 source:c:\program files\codeblocks\chillout\rpg v1\rift.cpp
+	"Rift.h"
+	<stdlib.h>
+	"Player.h"
+	"ResourceFactory.h"
+	"ComponentManager.h"
+	"Terrain.h"
+	<iostream>
+
+1421857955 c:\program files\codeblocks\chillout\rpg v1\rift.h
+	"Objects.h"
+	"Statistics.h"
+
+1421863597 source:c:\program files\codeblocks\chillout\rpg v1\soundfactory.cpp
+
+1421863571 c:\program files\codeblocks\chillout\rpg v1\soundfactory.h
+	<iostream>
+	<map>
+	"Texture2D.h"
+
+1421501635 c:\program files\codeblocks\chillout\rpg v1\bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1421917663 source:c:\program files\codeblocks\chillout\rpg v1\spawner.cpp
+	<stdlib.h>
+	<cstdio>
+	<ctime>
+	"Spawner.h"
+	"Arrow.h"
+	"ResourceFactory.h"
+	"Monster.h"
+	"Humans.h"
+	"Ghost.h"
+	"Spider.h"
+	"Statistics.h"
+
+1421915586 source:c:\program files\codeblocks\chillout\rpg v1\spider.cpp
+	<stdlib.h>
+	<cstdio>
+	<ctime>
+	<iostream>
+	"Monster.h"
+	"Spider.h"
+	"Arrow.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Coin.h"
+	"Player.h"
+	"HpPotion.h"
+	"ManaPotion.h"
+	"FireBall.h"
+	"Chest.h"
+
+1421701437 source:c:\program files\codeblocks\chillout\rpg v1\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1418300234 source:c:\program files\codeblocks\chillout\rpg v1\spritetext.cpp
+	<gl/gl.h>
+	<sstream>
+	"SpriteText.h"
+
+1421888056 source:c:\program files\codeblocks\chillout\rpg v1\statistics.cpp
+	<iostream>
+	"Statistics.h"
+
+1421915032 source:c:\program files\codeblocks\chillout\rpg v1\terrain.cpp
+	<windows.h>
+	<stdlib.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	<cstdio>
+	<ctime>
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Player.h"
+	"Spawner.h"
+	"Chest.h"
+	"Tree.h"
+	"Statistics.h"
+	"Rift.h"
+	"Npc.h"
+
+1421864060 source:c:\program files\codeblocks\chillout\rpg v1\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1421862289 source:c:\program files\codeblocks\chillout\rpg v1\tree.cpp
+	"Tree.h"
+	"ResourceFactory.h"
+	<stdlib.h>
+
+1421858915 source:c:\program files\codeblocks\chillout\rpg v1\weapons.cpp
+	"Weapons.h"
+
+1421858908 source:c:\users\y550\desktop\rpg v1\arrow.cpp
+	<windows.h>
+	"Arrow.h"
+	"Terrain.h"
+	"Entity.h"
+	"ResourceFactory.h"
+
+1421859166 c:\users\y550\desktop\rpg v1\arrow.h
+	"Weapons.h"
+
+1421861440 c:\users\y550\desktop\rpg v1\weapons.h
+	"Entity.h"
+
+1421873200 c:\users\y550\desktop\rpg v1\entity.h
+	"float2.h"
+	"Sprite.h"
+	"ComponentManager.h"
+
+1421323910 c:\users\y550\desktop\rpg v1\float2.h
+	<math.h>
+
+1421700642 c:\users\y550\desktop\rpg v1\sprite.h
+	"Texture2D.h"
+	"float2.h"
+
+1414672260 c:\users\y550\desktop\rpg v1\texture2d.h
+
+1417093684 c:\users\y550\desktop\rpg v1\componentmanager.h
+	<iostream>
+	<list>
+	"Component.h"
+
+1418298864 c:\users\y550\desktop\rpg v1\component.h
+
+1421914726 c:\users\y550\desktop\rpg v1\terrain.h
+	<vector>
+	"Sprite.h"
+
+1415883492 c:\users\y550\desktop\rpg v1\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1421860086 source:c:\users\y550\desktop\rpg v1\arrowpack.cpp
+	"ArrowPack.h"
+	"ResourceFactory.h"
+
+1421858128 c:\users\y550\desktop\rpg v1\arrowpack.h
+	"Items.h"
+
+1421860780 c:\users\y550\desktop\rpg v1\items.h
+	"Entity.h"
+
+1421923143 source:c:\users\y550\desktop\rpg v1\chest.cpp
+	"Chest.h"
+	"ResourceFactory.h"
+	"ArrowPack.h"
+	"Coin.h"
+	"HpPotion.h"
+	"ManaPotion.h"
+	"Objects.h"
+	"Player.h"
+	"Terrain.h"
+	"Items.h"
+	<stdlib.h>
+	<cstdio>
+	<ctime>
+	<iostream>
+	"SoundFactory.h"
+
+1421859776 c:\users\y550\desktop\rpg v1\chest.h
+	"Objects.h"
+
+1421862370 c:\users\y550\desktop\rpg v1\objects.h
+	"Entity.h"
+
+1421858328 c:\users\y550\desktop\rpg v1\coin.h
+	"Items.h"
+
+1421857954 c:\users\y550\desktop\rpg v1\hppotion.h
+	"Potions.h"
+
+1421860988 c:\users\y550\desktop\rpg v1\potions.h
+	"Items.h"
+
+1421857954 c:\users\y550\desktop\rpg v1\manapotion.h
+	"Potions.h"
+
+1421879236 c:\users\y550\desktop\rpg v1\player.h
+	"Humans.h"
+
+1421861302 c:\users\y550\desktop\rpg v1\humans.h
+	"Entity.h"
+
+1421861010 source:c:\users\y550\desktop\rpg v1\coin.cpp
+	"Coin.h"
+
+1416487102 source:c:\users\y550\desktop\rpg v1\component.cpp
+	"Component.h"
+
+1417094332 source:c:\users\y550\desktop\rpg v1\componentmanager.cpp
+	"ComponentManager.h"
+
+1421776030 source:c:\users\y550\desktop\rpg v1\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1418297442 source:c:\users\y550\desktop\rpg v1\explosion.cpp
+	"Explosion.h"
+	<windows.h>
+
+1418297384 c:\users\y550\desktop\rpg v1\explosion.h
+	"Entity.h"
+
+1421924104 source:c:\users\y550\desktop\rpg v1\fireball.cpp
+	<windows.h>
+	"Terrain.h"
+	"Explosion.h"
+	"ResourceFactory.h"
+	"FireBall.h"
+
+1421858330 c:\users\y550\desktop\rpg v1\fireball.h
+	"Weapons.h"
+
+1416482738 source:c:\users\y550\desktop\rpg v1\float2.cpp
+	"float2.h"
+
+1421924321 source:c:\users\y550\desktop\rpg v1\ghost.cpp
+	<stdlib.h>
+	<cstdio>
+	<ctime>
+	<iostream>
+	"Ghost.h"
+	"Arrow.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Coin.h"
+	"Player.h"
+	"HpPotion.h"
+	"ManaPotion.h"
+	"FireBall.h"
+	"Chest.h"
+	"Statistics.h"
+	"SoundFactory.h"
+
+1421861366 c:\users\y550\desktop\rpg v1\ghost.h
+	"Monster.h"
+
+1421857954 c:\users\y550\desktop\rpg v1\monster.h
+	"Entity.h"
+
+1421888028 c:\users\y550\desktop\rpg v1\statistics.h
+
+1421700994 source:c:\users\y550\desktop\rpg v1\gui.cpp
+	"GUI.h"
+
+1421700974 c:\users\y550\desktop\rpg v1\gui.h
+	"Sprite.h"
+
+1421860988 source:c:\users\y550\desktop\rpg v1\hppotion.cpp
+	"HpPotion.h"
+
+1421857266 source:c:\users\y550\desktop\rpg v1\humans.cpp
+	"Humans.h"
+
+1421859348 source:c:\users\y550\desktop\rpg v1\items.cpp
+	"Items.h"
+
+1421879964 source:c:\users\y550\desktop\rpg v1\key.cpp
+	"Key.h"
+	<stdlib.h>
+	"Player.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Statistics.h"
+	<iostream>
+
+1421879988 c:\users\y550\desktop\rpg v1\key.h
+	"Items.h"
+
+1421926099 source:c:\users\y550\desktop\rpg v1\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<time.h>
+	<unistd.h>
+	<iostream>
+	"Sprite.h"
+	"ResourceFactory.h"
+	"float2.h"
+	"Humans.h"
+	"Monster.h"
+	"ComponentManager.h"
+	"Player.h"
+	"Ghost.h"
+	"Spider.h"
+	"Terrain.h"
+	"Spawner.h"
+	"Tree.h"
+	"SpriteText.h"
+	"Statistics.h"
+	"GUI.h"
+	"Monster.h"
+	"Objects.h"
+	"Items.h"
+	"Key.h"
+	"Npc.h"
+	"bass.h"
+	"SoundFactory.h"
+
+1421915494 c:\users\y550\desktop\rpg v1\spider.h
+	"Monster.h"
+
+1421861908 c:\users\y550\desktop\rpg v1\spawner.h
+	"Objects.h"
+
+1421857956 c:\users\y550\desktop\rpg v1\tree.h
+	"Objects.h"
+
+1386237742 c:\users\y550\desktop\rpg v1\spritetext.h
+	"Sprite.h"
+	<string>
+
+1421857954 c:\users\y550\desktop\rpg v1\npc.h
+	"Humans.h"
+
+1421501636 c:\users\y550\desktop\rpg v1\bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1421860988 source:c:\users\y550\desktop\rpg v1\manapotion.cpp
+	"ManaPotion.h"
+
+1421857266 source:c:\users\y550\desktop\rpg v1\monster.cpp
+	"Monster.h"
+
+1421861922 source:c:\users\y550\desktop\rpg v1\npc.cpp
+	"npc.h"
+	"Player.h"
+	"Statistics.h"
+	<iostream>
+
+1421859436 source:c:\users\y550\desktop\rpg v1\objects.cpp
+	"Objects.h"
+
+1421924104 source:c:\users\y550\desktop\rpg v1\player.cpp
+	<stdlib.h>
+	<iostream>
+	"Player.h"
+	"Terrain.h"
+	"Spawner.h"
+	"Arrow.h"
+	"Coin.h"
+	"ResourceFactory.h"
+	"Statistics.h"
+	"HpPotion.h"
+	"FireBall.h"
+	"Monster.h"
+	"ManaPotion.h"
+	"Chest.h"
+	"ArrowPack.h"
+	"Key.h"
+	"Npc.h"
+	"SoundFactory.h"
+	"bass.h"
+
+1421860988 source:c:\users\y550\desktop\rpg v1\potions.cpp
+	"Potions.h"
+
+1416481394 source:c:\users\y550\desktop\rpg v1\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1421861954 source:c:\users\y550\desktop\rpg v1\rift.cpp
+	"Rift.h"
+	<stdlib.h>
+	"Player.h"
+	"ResourceFactory.h"
+	"ComponentManager.h"
+	"Terrain.h"
+	<iostream>
+
+1421857956 c:\users\y550\desktop\rpg v1\rift.h
+	"Objects.h"
+	"Statistics.h"
+
+1421922364 source:c:\users\y550\desktop\rpg v1\soundfactory.cpp
+	"SoundFactory.h"
+
+1421925876 source:c:\users\y550\desktop\rpg v1\spawner.cpp
+	<stdlib.h>
+	<cstdio>
+	<ctime>
+	"Spawner.h"
+	"Arrow.h"
+	"ResourceFactory.h"
+	"Monster.h"
+	"Humans.h"
+	"Ghost.h"
+	"Spider.h"
+	"Statistics.h"
+
+1421924137 source:c:\users\y550\desktop\rpg v1\spider.cpp
+	<stdlib.h>
+	<cstdio>
+	<ctime>
+	<iostream>
+	"Monster.h"
+	"Spider.h"
+	"Arrow.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Coin.h"
+	"Player.h"
+	"HpPotion.h"
+	"ManaPotion.h"
+	"FireBall.h"
+	"Chest.h"
+	"SoundFactory.h"
+
+1421701438 source:c:\users\y550\desktop\rpg v1\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1418300234 source:c:\users\y550\desktop\rpg v1\spritetext.cpp
+	<gl/gl.h>
+	<sstream>
+	"SpriteText.h"
+
+1421888058 source:c:\users\y550\desktop\rpg v1\statistics.cpp
+	<iostream>
+	"Statistics.h"
+
+1421915034 source:c:\users\y550\desktop\rpg v1\terrain.cpp
+	<windows.h>
+	<stdlib.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	<cstdio>
+	<ctime>
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Player.h"
+	"Spawner.h"
+	"Chest.h"
+	"Tree.h"
+	"Statistics.h"
+	"Rift.h"
+	"Npc.h"
+
+1421864062 source:c:\users\y550\desktop\rpg v1\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1421862290 source:c:\users\y550\desktop\rpg v1\tree.cpp
+	"Tree.h"
+	"ResourceFactory.h"
+	<stdlib.h>
+
+1421858916 source:c:\users\y550\desktop\rpg v1\weapons.cpp
+	"Weapons.h"
+
+1421921432 c:\users\y550\desktop\rpg v1\soundfactory.h
+	<iostream>
+	<map>
+	"Texture2D.h"
+	"bass.h"
+
