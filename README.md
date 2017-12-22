@@ -4,8 +4,8 @@ Written in C++ and GLUT library.
 School project on Software Engineering II subject from year 2015.
 
 Control:
-W, A, S, D - move
-1, 2 - using potions respectively: healh potion, mana potion
-Space - attack current weapon (mode and way of attack is dependent on currently own weapon)
-q - change weapon (sword attack, bow, fireball)
-f - interaction (e.g. to open chest)
+W, A, S, D - move;
+1, 2 - using potions respectively: healh potion, mana potion;
+Space - attack current weapon (mode and way of attack is dependent on currently own weapon);
+q - change weapon (sword attack, bow, fireball);
+f - interaction (e.g. to open chest);
